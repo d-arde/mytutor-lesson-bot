@@ -19,7 +19,8 @@ chrome_prefs["profile.default_content_settings"] = {"images": 2}
 chrome_prefs["profile.managed_default_content_settings"] = {"images": 2}
 
 
-driver = webdriver.Chrome(executable_path='/Users/dani/vscode/chromedriver') 
+#driver = webdriver.Chrome(executable_path='/Users/dani/vscode/chromedriver') 
+driver = webdriver.Chrome(executable_path="C:\Users\samir\chromedriver_win32") 
 #download webdriver - change path accordingly
 
 #recurring slots
